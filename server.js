@@ -36,7 +36,7 @@ process.on('SIGINT', function() {
 });
 // Main handlers registration - END
 
-const PORT = process.env.DASHBOARDPORT || 9009;
+const PORT = process.env.DASHBOARDPORT || 9109;
 
 // REST engine initial setup
 app.use(bodyParser.urlencoded({ extended: true }));
